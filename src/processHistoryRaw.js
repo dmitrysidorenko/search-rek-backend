@@ -18,7 +18,8 @@ function convertHistoryItemToTreeItem(item) {
     tabId: item.tabId,
     openerTabId: item.openerTabId,
     favIconUrl: item.favIconUrl,
-    pageUrl: item.tabUrl
+    pageUrl: item.tabUrl,
+    timestamp: item.timestamp
   };
 }
 
